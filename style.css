@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(20, 17, 17);
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    height: 100vh;
+    width: 40vw;
+    background-color: orangered;
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+    position: absolute;
+    right: 0;
+    z-index: -100;
+}
+
+h1 {
+    color: transparent;
+    transform: scale(3);
+    background-image: linear-gradient(30deg, rgb(182, 167, 167) , rgb(178, 221, 178), rgb(54, 54, 58));
+    background-clip: text;
+    transition: 0s;
+}
